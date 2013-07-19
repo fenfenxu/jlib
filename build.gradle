@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+jar {
+
+
+  manifest {
+    //  add attribute Main-Class to META-INF/MANIFEST.MF in jar 
+    attributes ("Main-Class": "com.xu.jlib.Main")
+  }
+}
